@@ -1,0 +1,24 @@
+{
+  "ds1": {
+    "best_method": "KMeans",
+    "criterion": "silhouette on test (simple rule)",
+    "best_params": {
+      "k": 2
+    }
+  },
+  "ds2": {
+    "best_method": "Agglomerative",
+    "criterion": "silhouette on test (simple rule)",
+    "best_params": {
+      "k": 2,
+      "linkage": "average"
+    }
+  },
+  "ds3": {
+    "best_method": "KMeans",
+    "criterion": "silhouette on test (simple rule)",
+    "best_params": {
+      "k": 3
+    }
+  }
+}

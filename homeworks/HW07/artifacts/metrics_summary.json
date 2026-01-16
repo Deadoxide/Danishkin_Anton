@@ -1,0 +1,71 @@
+{
+  "ds1": {
+    "KMeans": {
+      "params": {
+        "k": 2
+      },
+      "test_metrics": {
+        "silhouette": 0.5178583444837112,
+        "davies_bouldin": 0.6869719437123576,
+        "calinski_harabasz": 2872.1110566136354
+      }
+    },
+    "Agglomerative": {
+      "params": {
+        "k": 2,
+        "linkage": "ward"
+      },
+      "test_metrics": {
+        "silhouette": 0.5178583444837112,
+        "davies_bouldin": 0.6869719437123576,
+        "calinski_harabasz": 2872.1110566136354
+      }
+    }
+  },
+  "ds2": {
+    "KMeans": {
+      "params": {
+        "k": 2
+      },
+      "test_metrics": {
+        "silhouette": 0.30793368847359226,
+        "davies_bouldin": 1.3132762522404255,
+        "calinski_harabasz": 909.8533731733464
+      }
+    },
+    "Agglomerative": {
+      "params": {
+        "k": 2,
+        "linkage": "average"
+      },
+      "test_metrics": {
+        "silhouette": 0.4306711137258004,
+        "davies_bouldin": 1.037179357716423,
+        "calinski_harabasz": 103.89929566135106
+      }
+    }
+  },
+  "ds3": {
+    "KMeans": {
+      "params": {
+        "k": 3
+      },
+      "test_metrics": {
+        "silhouette": 0.31484304349330655,
+        "davies_bouldin": 1.1546400103910535,
+        "calinski_harabasz": 1732.3930619233174
+      }
+    },
+    "Agglomerative": {
+      "params": {
+        "k": 3,
+        "linkage": "average"
+      },
+      "test_metrics": {
+        "silhouette": 0.299585772494286,
+        "davies_bouldin": 0.6070602678433258,
+        "calinski_harabasz": 16.338198565727637
+      }
+    }
+  }
+}
