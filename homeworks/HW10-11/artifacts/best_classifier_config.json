@@ -1,0 +1,9 @@
+{
+  "dataset": "STL10",
+  "seed": 42,
+  "best_experiment_id": "C4",
+  "img_size": 96,
+  "batch_size": 64,
+  "criterion": "CrossEntropyLoss",
+  "test_accuracy": 0.947875
+}
