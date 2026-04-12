@@ -1,0 +1,13 @@
+TITLE: GroupBy operations
+SOURCE: synthetic://pandas/groupby
+
+The groupby operation in pandas is used for split-apply-combine workflows.
+Data is split into groups based on one or more keys, a function is applied to each group, and the results are combined.
+Typical aggregations include sum, mean, count, min, max, median, and custom functions.
+
+GroupBy is frequently used for business analytics, feature engineering, and exploratory analysis.
+Users can group by one column or multiple columns at once.
+After grouping, they may aggregate, transform, filter groups, or apply arbitrary functions.
+
+Transform differs from aggregate because transform returns output aligned with the original rows.
+This is useful when a user wants group-level statistics repeated back to each row.

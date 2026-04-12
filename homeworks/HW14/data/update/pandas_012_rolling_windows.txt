@@ -1,0 +1,9 @@
+TITLE: Rolling windows
+SOURCE: synthetic://pandas/rolling_windows
+
+Rolling window operations compute statistics over moving windows of observations.
+Common examples include rolling mean, rolling sum, and rolling standard deviation.
+These tools are frequently used in time-series smoothing and feature engineering.
+
+Rolling computations are most natural when the data is ordered in time or another meaningful sequence.
+Users should choose the window size carefully because it controls the trade-off between smoothness and responsiveness.

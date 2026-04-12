@@ -1,0 +1,12 @@
+TITLE: Missing values in pandas
+SOURCE: synthetic://pandas/missing_values
+
+Missing values in pandas are usually represented by NaN, NaT, or pandas nullable missing markers.
+Functions such as isna and notna help identify missing values in Series and DataFrame objects.
+Rows or columns with missing values can be removed with dropna.
+
+In many cases, missing values are filled rather than removed.
+The fillna method can replace missing values with constants, statistics, or forward and backward propagated values.
+Common strategies include filling numeric columns with the mean or median and categorical columns with the mode.
+
+Handling missing values is an important preprocessing step because many models and analyses assume complete data.

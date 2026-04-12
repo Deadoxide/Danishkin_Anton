@@ -1,0 +1,12 @@
+TITLE: Merge and join
+SOURCE: synthetic://pandas/merge_join
+
+Pandas provides merge and join operations to combine data from multiple tables.
+The merge function is similar to SQL joins and supports inner, left, right, and outer joins.
+A merge can be performed on one key, multiple keys, or directly on indexes.
+
+Users should be careful about duplicated keys because joins can increase the number of rows.
+It is often useful to inspect row counts before and after a merge.
+The validate argument can help detect unexpected one-to-many or many-to-many relationships.
+
+The join method is convenient for index-based combinations, while merge is usually more explicit and flexible.

@@ -1,0 +1,13 @@
+TITLE: DataFrame basics in pandas
+SOURCE: synthetic://pandas/dataframe_basics
+
+A pandas DataFrame is a two-dimensional tabular data structure with labeled rows and columns.
+It is one of the core objects in pandas and is widely used for data analysis and preprocessing.
+A DataFrame can be created from dictionaries, lists of dictionaries, NumPy arrays, CSV files, Excel files, and many other sources.
+
+Each column in a DataFrame may have its own dtype, which makes DataFrame flexible for mixed data.
+Users often inspect a DataFrame with head, tail, info, describe, columns, and shape.
+The index labels rows, while column names label variables.
+
+DataFrames support filtering, sorting, aggregation, joins, reshaping, missing-value handling, and time-series operations.
+This makes pandas convenient for many practical machine learning and analytics workflows.

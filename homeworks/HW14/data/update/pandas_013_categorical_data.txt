@@ -1,0 +1,9 @@
+TITLE: Categorical data
+SOURCE: synthetic://pandas/categorical_data
+
+Categorical dtype in pandas represents repeated values from a fixed set of categories.
+It can reduce memory usage and make category-aware operations more explicit.
+Users may define ordered or unordered categories depending on the semantics of the variable.
+
+Categorical data is useful for encoded labels, reporting dimensions, and controlled value vocabularies.
+It is often beneficial when the same string labels repeat many times in large tables.

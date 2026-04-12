@@ -1,0 +1,13 @@
+TITLE: Selection and indexing
+SOURCE: synthetic://pandas/selection_indexing
+
+Selection in pandas can be done with bracket notation, loc, and iloc.
+Bracket notation is often used for selecting columns, while loc is label-based and iloc is position-based.
+Using loc, a user can select rows and columns by explicit labels.
+Using iloc, a user can select data by integer positions.
+
+Boolean masks are also commonly used to filter rows by conditions.
+For example, users may keep rows where age is greater than 30 or where category equals a target value.
+Care should be taken with chained indexing, because it can lead to confusing code and warnings.
+
+When modifying data, it is usually safer to use loc directly instead of chained intermediate slices.

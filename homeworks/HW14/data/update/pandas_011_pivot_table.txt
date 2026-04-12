@@ -1,0 +1,9 @@
+TITLE: Pivot tables
+SOURCE: synthetic://pandas/pivot_table
+
+Pivot tables in pandas summarize data across dimensions and are useful for reporting and analysis.
+The pivot_table function supports aggregation, grouping by multiple dimensions, and filling missing combinations.
+Users can choose index, columns, values, and aggregation functions.
+
+Pivot tables are especially convenient when analysts want spreadsheet-like summaries directly in Python.
+They can often replace more verbose groupby plus reshape workflows.

@@ -1,0 +1,11 @@
+query,expected_source,retrieved_sources,hit_at_k,recall_at_k,rank_of_first_relevant
+What is a DataFrame in pandas?,pandas_001_dataframe_basics.txt,pandas_001_dataframe_basics.txt | pandas_006_sorting_filtering.txt,1,1.0,1
+What is the difference between loc and iloc?,pandas_002_selection_and_indexing.txt,pandas_002_selection_and_indexing.txt | pandas_010_apply_map.txt,1,1.0,1
+How can I fill missing values in pandas?,pandas_003_missing_values.txt,pandas_003_missing_values.txt | pandas_001_dataframe_basics.txt,1,1.0,1
+What does groupby do in pandas?,pandas_004_groupby.txt,pandas_004_groupby.txt | pandas_010_apply_map.txt | pandas_001_dataframe_basics.txt,1,1.0,1
+How does merge work in pandas?,pandas_005_merge_join.txt,pandas_005_merge_join.txt | pandas_010_apply_map.txt,1,1.0,1
+How do I filter rows with boolean conditions?,pandas_006_sorting_filtering.txt,pandas_006_sorting_filtering.txt | pandas_002_selection_and_indexing.txt | pandas_004_groupby.txt,1,1.0,1
+What string methods are available through the str accessor?,pandas_007_string_methods.txt,pandas_007_string_methods.txt | pandas_008_datetime.txt,1,1.0,1
+How do I convert a column to datetime in pandas?,pandas_008_datetime.txt,pandas_008_datetime.txt | pandas_001_dataframe_basics.txt,1,1.0,1
+What does read_csv do?,pandas_009_read_write.txt,pandas_009_read_write.txt | pandas_010_apply_map.txt,1,1.0,1
+Why are vectorized operations preferred over apply?,pandas_010_apply_map.txt,pandas_010_apply_map.txt | pandas_006_sorting_filtering.txt,1,1.0,1

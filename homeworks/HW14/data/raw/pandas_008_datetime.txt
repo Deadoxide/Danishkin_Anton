@@ -1,0 +1,10 @@
+TITLE: Datetime handling
+SOURCE: synthetic://pandas/datetime
+
+Datetime data in pandas is commonly converted with to_datetime.
+Once a column has datetime dtype, users can access components such as year, month, day, and weekday with the dt accessor.
+Time-based indexing enables convenient slicing, resampling, and rolling analysis.
+
+Datetime handling is important in logs, finance, monitoring, and forecasting tasks.
+Users should pay attention to parsing formats, time zones, and invalid values.
+After conversion, sorting by time and setting a DatetimeIndex often makes downstream analysis easier.

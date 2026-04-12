@@ -1,0 +1,10 @@
+TITLE: Apply, map, and vectorization
+SOURCE: synthetic://pandas/apply_map_vectorization
+
+Pandas users often choose between vectorized expressions, map, apply, and row-wise logic.
+Vectorized operations are generally preferred because they are faster and more idiomatic.
+The map method is commonly used on Series for dictionary-like replacement or simple element-wise transformations.
+
+The apply method can be useful, but it is sometimes overused.
+Applying Python functions row by row may be slower than expressing the same transformation with built-in vectorized operations.
+In performance-sensitive code, users should first look for native pandas or NumPy alternatives.

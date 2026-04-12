@@ -1,0 +1,10 @@
+TITLE: String processing
+SOURCE: synthetic://pandas/string_methods
+
+Pandas provides vectorized string operations through the str accessor.
+These methods allow users to lower-case text, strip spaces, match patterns, replace substrings, and split text.
+For example, str.lower, str.strip, str.contains, str.replace, and str.extract are commonly used.
+
+String methods are useful in cleaning categorical data, parsing identifiers, and preparing text columns for analysis.
+Because these operations are vectorized, they are usually more convenient than manual Python loops over rows.
+Regular expressions can also be used in many string operations for more advanced pattern matching.

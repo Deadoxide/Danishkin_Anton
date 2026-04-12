@@ -1,0 +1,10 @@
+TITLE: Reading and writing files
+SOURCE: synthetic://pandas/read_write
+
+Pandas can read and write many file formats, including CSV, Excel, JSON, parquet, and SQL tables.
+The read_csv function is one of the most frequently used entry points in practice.
+When reading files, users often configure separators, encodings, headers, column types, missing-value markers, and date parsing.
+
+Saving processed data is typically done with to_csv, to_excel, to_json, or parquet writers.
+Choosing the output format depends on interoperability, storage size, and performance needs.
+It is good practice to verify dtypes and row counts after loading data from external sources.

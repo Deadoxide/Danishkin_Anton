@@ -1,0 +1,12 @@
+TITLE: Sorting and filtering
+SOURCE: synthetic://pandas/sorting_filtering
+
+Filtering in pandas usually relies on boolean conditions.
+Users may compare numeric columns, test membership with isin, or combine conditions with logical operators.
+Parentheses are important when combining multiple boolean expressions.
+
+Sorting is often done with sort_values for rows and sort_index for labels.
+A DataFrame can be sorted by one column or multiple columns with different ascending flags.
+Filtering and sorting are among the most frequent operations in exploratory analysis and data cleaning.
+
+For readability, many analysts build intermediate masks and then apply them to the DataFrame.
