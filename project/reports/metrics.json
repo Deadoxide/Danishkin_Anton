@@ -1,0 +1,59 @@
+{
+    "models": [
+        {
+            "model": "LogisticRegression",
+            "accuracy": 0.7481137550783518,
+            "precision_macro": 0.7516781863348578,
+            "recall_macro": 0.7475613665326891,
+            "f1_macro": 0.7491603742355766
+        },
+        {
+            "model": "MultinomialNB",
+            "accuracy": 0.7254207777132907,
+            "precision_macro": 0.7352360077005159,
+            "recall_macro": 0.7251196706334081,
+            "f1_macro": 0.7267557992769142
+        },
+        {
+            "model": "DummyClassifier",
+            "accuracy": 0.33609982588508414,
+            "precision_macro": 0.11203327529502805,
+            "recall_macro": 0.3333333333333333,
+            "f1_macro": 0.16770195328902596
+        }
+    ],
+    "best_model": "LogisticRegression",
+    "best_model_classification_report": {
+        "negative": {
+            "precision": 0.7437658113480303,
+            "recall": 0.714087439278279,
+            "f1-score": 0.7286245353159851,
+            "support": 5764.0
+        },
+        "neutral": {
+            "precision": 0.6268044619422573,
+            "recall": 0.6733039647577093,
+            "f1-score": 0.6492226658737575,
+            "support": 5675.0
+        },
+        "positive": {
+            "precision": 0.8844642857142857,
+            "recall": 0.8552926955620791,
+            "f1-score": 0.869633921516987,
+            "support": 5791.0
+        },
+        "accuracy": 0.7481137550783518,
+        "macro avg": {
+            "precision": 0.7516781863348578,
+            "recall": 0.7475613665326891,
+            "f1-score": 0.7491603742355766,
+            "support": 17230.0
+        },
+        "weighted avg": {
+            "precision": 0.7525312905806028,
+            "recall": 0.7481137550783518,
+            "f1-score": 0.7498653795647001,
+            "support": 17230.0
+        }
+    }
+}
