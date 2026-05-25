@@ -6,3 +6,27 @@ homeworks/HW10-11/data/
 homeworks/HW10-11/.ipynb_checkpoints/
 homeworks/HW10-11/.ipynb_checkpoints/
 homeworks/HW10-11/.ipynb_checkpoints/
+# Local Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Homework archives and checkpoints
+homeworks/**/*.zip
+homeworks/**/artifacts/checkpoints/
+
+# Project data
+project/data/raw/*
+project/data/processed/*
+!project/data/raw/.gitkeep
+!project/data/processed/.gitkeep
+
+# Project environment
+project/.venv/
+project/.env
+
+# Python cache
+project/**/__pycache__/
+project/**/*.pyc
+
+# Logs
+project/*.log
+project/logs/
