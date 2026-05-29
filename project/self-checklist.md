@@ -12,20 +12,20 @@
 
 ## Таблица самопроверки
 
-| #  | Критерий                                                                 | Да/Нет (студент) | Где смотреть / комментарий                          |
-|----|---------------------------------------------------------------------------|------------------|-----------------------------------------------------|
-| 1  | Сервис запускается по инструкциям из `project/README.md` и работает      |        ✅          | Например: `README.md`, раздел «Как запустить»       |
-| 2  | Endpoint `/predict` использует **реальную модель**, а не заглушку        |        ✅          | Например: `src/service/`, `src/models/`             |
-| 3  | Есть EDA и хотя бы один эксперимент с метриками                          |        ✅          | Например: `notebooks/01_eda.ipynb`, `report.md`     |
-| 4  | Есть baseline и улучшенная модель, есть **сравнение по метрикам**        |        ✅          | Например: `notebooks/02_baselines.ipynb`, `report.md` |
-| 5  | Код не свален в один ноутбук: есть внятная структура в `src/`            |        ✅          | Например: `src/data/`, `src/models/`, `src/service/` |
-| 6  | Есть Dockerfile **или** понятный сценарий развёртывания без Docker       |        ✅          | Например: `Dockerfile` или шаги в `README.md`       |
-| 7  | Есть `.env.example` и **нет** в репозитории реальных секретов/паролей    |        ✅          | `.env.example`, `SECURITY.md`, отсутствие `.env`    |
-| 8  | Реализованы логи/наблюдаемость (хотя бы консольные логи + `/health`)     |        ✅          | Например: использование `logging`, endpoint `/health` |
-| 9  | В `report.md` **обоснован выбор финальной модели** по результатам экспериментов |    ❌       | `report.md`, разделы про результаты и выбор модели  |
-| 10 | `project/README.md` и `report.md` позволяют понять сценарий демонстрации |         ❌         | Разделы «Как запустить», «Демонстрация на защите»   |
+| #  | Критерий | Да/Нет (студент) | Где смотреть / комментарий |
+|----|---|---|---|
+| 1  | Сервис запускается по инструкциям из `project/README.md` и работает | ✅ | `README.md`, разделы запуска FastAPI и Streamlit |
+| 2  | Endpoint `/predict` использует **реальную модель**, а не заглушку | ✅ | `src/predict.py`, `src/api.py`, `artifacts/sentiment_model.joblib` |
+| 3  | Есть EDA и хотя бы один эксперимент с метриками | ✅ | `notebooks/eda.ipynb`, `notebooks/baseline_models.ipynb`, `report.md` |
+| 4  | Есть baseline и улучшенная модель, есть **сравнение по метрикам** | ✅ | `notebooks/baseline_models.ipynb`, `report.md`, `reports/metrics.json` |
+| 5  | Код не свален в один ноутбук: есть внятная структура в `src/` | ✅ | `src/predict.py`, `src/api.py`, `src/batch_analysis.py`, `src/streamlit_app.py` |
+| 6  | Есть Dockerfile **или** понятный сценарий развёртывания без Docker | ✅ | `Dockerfile`, `README.md`, `requirements.txt` |
+| 7  | Есть `.env.example` и **нет** в репозитории реальных секретов/паролей | ✅ | `configs/.env.example`, `README.md`, `report.md` |
+| 8  | Реализованы логи/наблюдаемость (хотя бы консольные логи + `/health`) | ✅ | `src/api.py`, endpoint `/health`, `report.md` |
+| 9  | В `report.md` **обоснован выбор финальной модели** по результатам экспериментов | ✅ | `report.md`: сравнение моделей по macro-F1 и выбор `LogisticRegression`; `src/train.py` |
+| 10 | `project/README.md` и `report.md` позволяют понять сценарий демонстрации | ✅ | `README.md`, `report.md`: FastAPI + Streamlit + CSV-анализ; `tests/test_api.py`, `tests/test_predict.py`, `tests/test_batch_analysis.py` |
 
----"
+---
 
 ## Подсчёт баллов и связь с оценкой
 

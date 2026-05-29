@@ -11,3 +11,4 @@ pydantic
 pytest
 httpx
 python-dotenv
+streamlit
